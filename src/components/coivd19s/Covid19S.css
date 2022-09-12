@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.covid-container{
+    background-color: #8ecae6;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+}
+.covid-heading{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.covid-heading h1{
+    color: antiquewhite;
+}
+
+.covid-heading input{
+    margin:8px 13px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 7px 14px;
+}
+
+.covid-container table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.covid-container td{
+    padding: 3px 8px;
+    border-bottom: 1px solid black;
+}
+
+.covid-container th{
+    background-color: #023047;
+    color: white;
+}
